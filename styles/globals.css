@@ -39,3 +39,16 @@
 .MuiDataGrid-root .MuiDataGrid-cell:focus-within {
   outline: none !important;
 }
+
+.slide {
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .slide {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 350px;
+  }
+}
+  
