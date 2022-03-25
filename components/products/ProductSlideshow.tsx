@@ -20,10 +20,10 @@ export const ProductSlideshow: FC<Props> = ({ images }) => {
 					return (
 						<div className={ styles['each-slide'] } key={ image }>
 							<div 
+								className='slide'
 								style={{
 									backgroundImage: `url(${ image })`,			
 								}}
-								className='slide'
 							>
 
 							</div>

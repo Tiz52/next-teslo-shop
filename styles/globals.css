@@ -42,6 +42,8 @@
 
 .slide {
   background-size: cover;
+  background-position: center;
+  height: 900px;
 }
 
 @media screen and (max-width: 450px) {
@@ -49,6 +51,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     height: 350px;
+   
   }
 }
   
